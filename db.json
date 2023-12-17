@@ -1,4 +1,4 @@
-data  : {
+{
   questions: [
     {
       question: "What is your age?",
