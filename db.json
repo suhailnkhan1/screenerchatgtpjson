@@ -1,107 +1,100 @@
 {
-  questions: [
+  "questions": [
     {
-      question: "What is your age?",
-      tag: "age",
-      type: "numeric",
-      validation: {
-        min: 18,
-        max: 65,
-      },
+      "question": "What is your age?",
+      "tag": "age",
+      "type": "numeric",
+      "validation": {
+        "min": 18,
+        "max": 65
+      }
     },
     {
-      question: "Do you have a history of the following medical conditions?",
-      options: [
+      "question": "Do you have a history of the following medical conditions?",
+      "options": [
         "Hypertension",
         "Diabetes",
         "Heart Disease",
         "Cancer",
-        "Other (please specify)",
+        "Other (please specify)"
       ],
-      tag: "medical_conditions",
-      type: "CB",
+      "tag": "medical_conditions",
+      "type": "CB"
     },
     {
-      question: "Have you been diagnosed with any psychiatric disorders?",
-      options: [
+      "question": "Have you been diagnosed with any psychiatric disorders?",
+      "options": [
         "Depression",
         "Anxiety",
         "Schizophrenia",
         "Bipolar Disorder",
-        "Other (please specify)",
+        "Other (please specify)"
       ],
-      tag: "psychiatric_disorders",
-      type: "CB",
+      "tag": "psychiatric_disorders",
+      "type": "CB"
     },
     {
-      question:
-        "Are you currently taking any medications? If yes, please provide details.",
-      tag: "medications",
-      type: "TF",
+      "question": "Are you currently taking any medications? If yes, please provide details.",
+      "tag": "medications",
+      "type": "TF"
     },
     {
-      question: "Have you undergone surgery in the past six months?",
-      tag: "surgery",
-      type: "RR",
-      radio_options: ["Yes", "No"],
+      "question": "Have you undergone surgery in the past six months?",
+      "tag": "surgery",
+      "type": "RR",
+      "radio_options": ["Yes", "No"]
     },
     {
-      question: "Do you have any allergies?",
-      tag: "allergies",
-      type: "RR",
-      radio_options: ["Yes", "No"],
+      "question": "Do you have any allergies?",
+      "tag": "allergies",
+      "type": "RR",
+      "radio_options": ["Yes", "No"]
     },
     {
-      question:
-        "Have you participated in a clinical trial in the last 30 days?",
-      tag: "previous_clinical_trial",
-      type: "RR",
-      radio_options: ["Yes", "No"],
+      "question": "Have you participated in a clinical trial in the last 30 days?",
+      "tag": "previous_clinical_trial",
+      "type": "RR",
+      "radio_options": ["Yes", "No"]
     },
     {
-      question:
-        "Are you pregnant or planning to become pregnant during the study period?",
-      tag: "pregnancy",
-      type: "RR",
-      radio_options: ["Yes", "No"],
+      "question": "Are you pregnant or planning to become pregnant during the study period?",
+      "tag": "pregnancy",
+      "type": "RR",
+      "radio_options": ["Yes", "No"]
     },
     {
-      question:
-        "Do you have any physical limitations that may impact your ability to participate?",
-      tag: "physical_limitations",
-      type: "RR",
-      radio_options: ["Yes", "No"],
+      "question": "Do you have any physical limitations that may impact your ability to participate?",
+      "tag": "physical_limitations",
+      "type": "RR",
+      "radio_options": ["Yes", "No"]
     },
     {
-      question: "Have you had any adverse reactions to vaccines in the past?",
-      tag: "vaccine_reactions",
-      type: "RR",
-      radio_options: ["Yes", "No"],
+      "question": "Have you had any adverse reactions to vaccines in the past?",
+      "tag": "vaccine_reactions",
+      "type": "RR",
+      "radio_options": ["Yes", "No"]
     },
     {
-      question:
-        "Do you meet the specific inclusion criteria outlined in the clinical trial documentation?",
-      tag: "specific_inclusion_criteria",
-      type: "RR",
-      radio_options: ["Yes", "No"],
+      "question": "Do you meet the specific inclusion criteria outlined in the clinical trial documentation?",
+      "tag": "specific_inclusion_criteria",
+      "type": "RR",
+      "radio_options": ["Yes", "No"]
     },
     {
-      question:
-        "Do you meet any of the exclusion criteria outlined in the clinical trial documentation?",
-      tag: "specific_exclusion_criteria",
-      type: "RR",
-      radio_options: ["Yes", "No"],
+      "question": "Do you meet any of the exclusion criteria outlined in the clinical trial documentation?",
+      "tag": "specific_exclusion_criteria",
+      "type": "RR",
+      "radio_options": ["Yes", "No"]
     },
     {
-      question:
-        "Is there any additional information you would like to provide related to your eligibility?",
-      tag: "additional_information",
-      type: "TF",
+      "question": "Is there any additional information you would like to provide related to your eligibility?",
+      "tag": "additional_information",
+      "type": "TF"
     },
     {
-      question: "Followed.",
-      tag: "followed",
-      type: "followed",
-    },
-  ],
-};
+      "question": "Followed.",
+      "tag": "followed",
+      "type": "followed"
+    }
+  ]
+}
